@@ -1,0 +1,66 @@
+#azzap-wrapper{width:500px;font-family: Arial;}
+
+#azzap-form input, #azzap-form textarea,#azzap-form select{background-color: #FFFFFF;border: 1px solid #CCCCCC;width: 90%;}
+#azzap-form input, #azzap-form select{display: inline-block; font-size: 14px; min-height: 20px; line-height: 20px;padding: 4px 6px;vertical-align: middle;}
+#azzap-form label, #azzap-form small{display: block;}
+#azzap-form small{color: #777;}
+
+#azzap-form #uploaded{display: block; clear: both; }
+#uploaded img{float: left; margin: 10px 10px 10px 0;}
+input#fileupload{
+    border-color: rgba(0, 0, 0, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 100px 200px;
+    cursor: pointer;
+    direction: ltr;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-300px, 0px) scale(4);
+}
+#fileupload-btn{
+    float: left;
+    margin-right: 4px;
+    overflow: hidden;
+    position: relative;
+
+    border-radius: 6px;
+    font-size: 17.5px;
+    padding: 11px 19px;
+}
+
+.btn{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.azzap-control-group{width: 100%; clear: both;margin-bottom: 20px;}
+
+#azzap-message{
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #C09853;
+}
